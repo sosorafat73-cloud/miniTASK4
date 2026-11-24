@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BREW & BEAN - Coffee Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar fade-down">
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-mug-hot"></i>
+                <span>BREW & BEAN</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#story">Our Story</a>
+                <a href="#offers">Offers</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="icon-btn" title="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="icon-btn cart-btn" title="Cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-badge">2</span>
+                </button>
+                <a href="#menu" class="btn btn-primary">Order Now</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text fade-up">
+                <span class="pill-tag"><i class="fa-solid fa-sparkles"></i> Freshly Roasted Daily</span>
+                <h1>Your Daily Dose of <span>Happiness.</span></h1>
+                <p>Experience the rich aroma and velvety taste of ethically sourced, artisanal coffee crafted with passion by our master baristas.</p>
+                
+                <div class="hero-btns">
+                    <a href="#menu" class="btn btn-primary">Explore Menu <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#story" class="btn btn-outline">Our Story</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>15+</h3>
+                        <p>Coffee Blends</p>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="stat-item">
+                        <h3>4.9 <i class="fa-solid fa-star"></i></h3>
+                        <p>Customer Rating</p>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Organic Beans</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual fade-in">
+                <div class="hero-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80" alt="Artisanal Coffee Cup">
+                    <div class="floating-card badge-top">
+                        <div class="badge-icon"><i class="fa-solid fa-fire"></i></div>
+                        <div>
+                            <strong>Best Seller</strong>
+                            <span>Signature Velvet Latte</span>
+                        </div>
+                    </div>
+                    <div class="floating-card badge-bottom">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>"Best coffee in town!"</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="favorites">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="sub-heading">OUR MENU</span>
+                <h2>Customer Favorites</h2>
+                <p>Handcrafted beverages made from single-origin beans roasted to perfection.</p>
+            </div>
+
+            <div class="cards-grid">
+                <div class="product-card fade-up delay-1">
+                    <div class="card-img-box">
+                        <span class="card-tag">Popular</span>
+                        <img src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&fit=crop&w=600&q=80" alt="Caramel Macchiato">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-top">
+                            <h3>Caramel Macchiato</h3>
+                            <span class="price">$4.50</span>
+                        </div>
+                        <p>Rich espresso layered with steamed milk, vanilla syrup, and caramel drizzle.</p>
+                        <button class="btn-add"><i class="fa-solid fa-plus"></i> Add to Order</button>
+                    </div>
+                </div>
+
+                <div class="product-card fade-up delay-2">
+                    <div class="card-img-box">
+                        <span class="card-tag tag-new">Chef's Pick</span>
+                        <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=600&q=80" alt="Classic Cappuccino">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-top">
+                            <h3>Classic Cappuccino</h3>
+                            <span class="price">$4.00</span>
+                        </div>
+                        <p>Equal parts rich dark espresso, steamed milk, and velvety micro-foam.</p>
+                        <button class="btn-add"><i class="fa-solid fa-plus"></i> Add to Order</button>
+                    </div>
+                </div>
+
+                <div class="product-card fade-up delay-3">
+                    <div class="card-img-box">
+                        <span class="card-tag">Iced</span>
+                        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=600&q=80" alt="Iced Spanish Latte">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-top">
+                            <h3>Iced Spanish Latte</h3>
+                            <span class="price">$5.25</span>
+                        </div>
+                        <p>Chilled bold espresso poured over ice with sweetened condensed milk.</p>
+                        <button class="btn-add"><i class="fa-solid fa-plus"></i> Add to Order</button>
+                    </div>
+                </div>
+
+                <div class="product-card fade-up delay-4">
+                    <div class="card-img-box">
+                        <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=600&q=80" alt="Hazelnut Mocha">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-top">
+                            <h3>Hazelnut Mocha</h3>
+                            <span class="price">$4.85</span>
+                        </div>
+                        <p>Decadent dark chocolate blended with roasted hazelnut and espresso.</p>
+                        <button class="btn-add"><i class="fa-solid fa-plus"></i> Add to Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="story" class="story">
+        <div class="container story-grid">
+            <div class="story-media fade-up">
+                <div class="story-img-frame">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=80" alt="Brew & Bean Interior">
+                </div>
+                <div class="exp-badge">
+                    <span class="exp-years">12+</span>
+                    <span class="exp-text">Years of Brewing Excellence</span>
+                </div>
+            </div>
+
+            <div class="story-content fade-up delay-2">
+                <span class="sub-heading">WHY CHOOSE US</span>
+                <h2>More Than Just Coffee</h2>
+                <p class="lead-text">At Brew & Bean, we believe every cup tells a story. From sustainable farming partnerships to precision roasting, we create a warm sanctuary for coffee lovers.</p>
+
+                <div class="features-list">
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fa-solid fa-seedling"></i></div>
+                        <div>
+                            <h4>100% Ethically Sourced</h4>
+                            <p>Direct trade partnerships supporting local farmers and sustainable harvests.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fa-solid fa-award"></i></div>
+                        <div>
+                            <h4>Master Barista Craft</h4>
+                            <p>Trained artisans dedicated to dialing in the perfect extraction every single time.</p>
+                        </div>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="fa-solid fa-wifi"></i></div>
+                        <div>
+                            <h4>Cozy Workspace Vibe</h4>
+                            <p>Warm ambiance, high-speed Wi-Fi, and freshly baked pastries all day long.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#offers" class="btn btn-primary">Discover Our Craft</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="offers" class="promo-section">
+        <div class="container">
+            <div class="promo-banner fade-up">
+                <div class="promo-glow"></div>
+                <span class="promo-pill">LIMITED TIME OFFER</span>
+                <h2>Good Coffee. Great Moments.</h2>
+                <p>Get <strong>20% OFF</strong> your first online order when you sign up for our Bean Rewards club today.</p>
+                
+                <div class="promo-actions">
+                    <div class="coupon-box">
+                        <span>USE CODE:</span>
+                        <strong>BREW20</strong>
+                    </div>
+                    <a href="#menu" class="btn btn-light">Claim Discount <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo footer-logo">
+                    <i class="fa-solid fa-mug-hot"></i>
+                    <span>BREW & BEAN</span>
+                </a>
+                <p>Crafting memorable coffee experiences one cup at a time. Visit our flagship roastery or order online.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Our Menu</a></li>
+                    <li><a href="#story">About Us</a></li>
+                    <li><a href="#offers">Special Offers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Opening Hours</h4>
+                <ul class="hours-list">
+                    <li><span>Mon - Fri:</span> 7:00 AM - 10:00 PM</li>
+                    <li><span>Saturday:</span> 8:00 AM - 11:00 PM</li>
+                    <li><span>Sunday:</span> 8:00 AM - 9:00 PM</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>Subscribe for seasonal blends & exclusive discounts.</p>
+                <form class="newsletter-form" onsubmit="event.preventDefault();">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container bottom-flex">
+                <p>&copy; 2026 BREW & BEAN Coffee Co. All rights reserved.</p>
+                <div class="bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
